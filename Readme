@@ -1,0 +1,23 @@
+Naming Convention to follow:
+Locator Variable Name - type_fieldname_locatoridentifier  (all small with underscore known as snake case)
+Ex-
+textbox_username_id
+textbox_username_xpath
+
+Class Name - InitialLetterCapital (Pascal Case)
+Ex- class LoginPage
+
+Method Name - camelCase
+Ex- def testLogin or validaLogin or itsMyMethod()
+
+PageObjects Python File Name - FunctionalityNamePage (Initial Letter Capital)  (Pascal Case)
+Ex- LoginPage, CreateUserPage
+
+PageObjects class name- PascalCase with suffix Page
+e.g. LoginPage, ReportsPage
+
+TestCases Python File Name - test_pageObjectName
+Ex-test_createUser , test_reports, test_autoProvisioning
+
+Test case methods inside TastCases folder/package-
+test_createUser(), test_validLogin()
